@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sed -i  ' 3 s/localhost/$PUBLIC_IP/  ./.env
+sed -i  ' 4 s/localhost/$URL_IP/ ./.env
+
