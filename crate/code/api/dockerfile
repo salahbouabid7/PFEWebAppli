@@ -1,0 +1,11 @@
+FROM node:latest
+RUN adduser --disabled-password salahbouabid7
+ENV HOME=/home/salahbouabid7
+WORKDIR $HOME/api
+COPY . .
+RUN chown -R salahbouabid7 .
+USER salahbouabid7
+RUN npm install
+ENTRYPOINT ['./script']
+EXPOSE 3000 
+CMD ['npm','start']
