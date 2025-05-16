@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "admin",
-    "password": "vivemoi2001"
+    "password": "vivemoi2001",
     "database": "crate",
     "host": "databaseaws.cpuwy2u04ox2.eu-north-1.rds.amazonaws.com",
     "dialect": "mysql",

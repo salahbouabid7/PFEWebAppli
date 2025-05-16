@@ -1,0 +1,11 @@
+services:
+ frontend:
+   build: ./crate/code/web/
+   ports:
+   - "3000:3000"
+
+ backend:
+   build: ./crate/code/api/
+   ports:
+   - "8000:8000"
+
